@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F403093D27E86BB9000F7F89 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403093C27E86BB9000F7F89 /* CarsViewController.swift */; };
+		F403094127E880F7000F7F89 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F403094027E880F7000F7F89 /* Data.plist */; };
+		F44B39F827EA355800D7009B /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B39F627EA355800D7009B /* Car+CoreDataClass.swift */; };
+		F44B39F927EA355800D7009B /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B39F727EA355800D7009B /* Car+CoreDataProperties.swift */; };
 		F4A951B127E0798A002F7A19 /* TODOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A951B027E0798A002F7A19 /* TODOViewController.swift */; };
 		F4A951B427E08CBB002F7A19 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A951B227E08CBB002F7A19 /* Task+CoreDataClass.swift */; };
 		F4A951B527E08CBB002F7A19 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A951B327E08CBB002F7A19 /* Task+CoreDataProperties.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F403093C27E86BB9000F7F89 /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		F403094027E880F7000F7F89 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = ../../../../../Downloads/MyCars/MyCars/Data.plist; sourceTree = "<group>"; };
+		F44B39F627EA355800D7009B /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F44B39F727EA355800D7009B /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F4A951B027E0798A002F7A19 /* TODOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewController.swift; sourceTree = "<group>"; };
 		F4A951B227E08CBB002F7A19 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F4A951B327E08CBB002F7A19 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -41,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F403093B27E86B94000F7F89 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				F403093C27E86BB9000F7F89 /* CarsViewController.swift */,
+				F44B39F627EA355800D7009B /* Car+CoreDataClass.swift */,
+				F44B39F727EA355800D7009B /* Car+CoreDataProperties.swift */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
 		F4A951B627E0B4D1002F7A19 /* To-Do */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,11 +88,13 @@
 		F4E1A83127D25DB00080A855 /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				F4E1A84027D25DB30080A855 /* LaunchScreen.storyboard */,
 				F4E1A83227D25DB00080A855 /* AppDelegate.swift */,
 				F4E1A83427D25DB00080A855 /* SceneDelegate.swift */,
+				F403093B27E86B94000F7F89 /* Cars */,
 				F4A951B627E0B4D1002F7A19 /* To-Do */,
-				F4E1A84027D25DB30080A855 /* LaunchScreen.storyboard */,
 				F4E1A83E27D25DB30080A855 /* Assets.xcassets */,
+				F403094027E880F7000F7F89 /* Data.plist */,
 				F4E1A84327D25DB30080A855 /* Info.plist */,
 				F4E1A83B27D25DB00080A855 /* CoreDataExample.xcdatamodeld */,
 			);
@@ -140,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E1A84227D25DB30080A855 /* LaunchScreen.storyboard in Resources */,
+				F403094127E880F7000F7F89 /* Data.plist in Resources */,
 				F4E1A83F27D25DB30080A855 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,8 +176,11 @@
 				F4A951B427E08CBB002F7A19 /* Task+CoreDataClass.swift in Sources */,
 				F4E1A83327D25DB00080A855 /* AppDelegate.swift in Sources */,
 				F4E1A83527D25DB00080A855 /* SceneDelegate.swift in Sources */,
+				F44B39F827EA355800D7009B /* Car+CoreDataClass.swift in Sources */,
 				F4A951B527E08CBB002F7A19 /* Task+CoreDataProperties.swift in Sources */,
 				F4E1A83D27D25DB00080A855 /* CoreDataExample.xcdatamodeld in Sources */,
+				F44B39F927EA355800D7009B /* Car+CoreDataProperties.swift in Sources */,
+				F403093D27E86BB9000F7F89 /* CarsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

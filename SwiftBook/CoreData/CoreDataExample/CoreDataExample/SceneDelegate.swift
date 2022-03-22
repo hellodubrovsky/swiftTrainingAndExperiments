@@ -20,9 +20,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let todoNavigationController = UINavigationController(rootViewController: todoViewController)
         todoNavigationController.tabBarItem = UITabBarItem(title: "TO-DO", image: UIImage(systemName: "command.square.fill"), selectedImage: nil)
         
+        let carsViewController = CarsViewController()
+        let carsNavigationController = UINavigationController(rootViewController: carsViewController)
+        carsNavigationController.tabBarItem = UITabBarItem(title: "Cars", image: UIImage(systemName: "car.fill"), selectedImage: nil)
+        
         let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [todoNavigationController]
-        tabBarController.selectedViewController = todoNavigationController
+        tabBarController.viewControllers = [todoNavigationController, carsNavigationController]
+        tabBarController.selectedViewController = carsNavigationController
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
